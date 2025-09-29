@@ -636,7 +636,7 @@
         <sv:value>mgnl:contentNode</sv:value>
       </sv:property>
       <sv:property sv:name="description" sv:type="String">
-        <sv:value>Fortbildung</sv:value>
+        <sv:value>termine-e Fortbildung</sv:value>
       </sv:property>
       <sv:property sv:name="dialog" sv:type="String">
         <sv:value>max-e:page_properties</sv:value>
@@ -648,7 +648,7 @@
         <sv:value>sinicum</sv:value>
       </sv:property>
       <sv:property sv:name="title" sv:type="String">
-        <sv:value>Fortbildung</sv:value>
+        <sv:value>termine-e Fortbildung</sv:value>
       </sv:property>
       <sv:property sv:name="visible" sv:type="String">
         <sv:value>true</sv:value>
@@ -682,7 +682,7 @@
         <sv:value>mgnl:contentNode</sv:value>
       </sv:property>
       <sv:property sv:name="description" sv:type="String">
-        <sv:value>Fortbildungen</sv:value>
+        <sv:value>termine-e Fortbildungen</sv:value>
       </sv:property>
       <sv:property sv:name="dialog" sv:type="String">
         <sv:value>max-e:page_properties_events</sv:value>
@@ -694,7 +694,7 @@
         <sv:value>sinicum</sv:value>
       </sv:property>
       <sv:property sv:name="title" sv:type="String">
-        <sv:value>Fortbildungen</sv:value>
+        <sv:value>termine-e Fortbildungen</sv:value>
       </sv:property>
       <sv:property sv:name="visible" sv:type="String">
         <sv:value>true</sv:value>
@@ -1399,14 +1399,6 @@
                   <sv:value>max-e:components/content_elements/map</sv:value>
                 </sv:property>
               </sv:node>
-              <sv:node sv:name="newsletter">
-                <sv:property sv:name="jcr:primaryType" sv:type="Name">
-                  <sv:value>mgnl:contentNode</sv:value>
-                </sv:property>
-                <sv:property sv:name="id" sv:type="String">
-                  <sv:value>max-e:components/content_elements/newsletter</sv:value>
-                </sv:property>
-              </sv:node>
               <sv:node sv:name="newsletter_sendy">
                 <sv:property sv:name="jcr:primaryType" sv:type="Name">
                   <sv:value>mgnl:contentNode</sv:value>
@@ -1693,14 +1685,6 @@
                 </sv:property>
                 <sv:property sv:name="id" sv:type="String">
                   <sv:value>max-e:components/content_elements/map</sv:value>
-                </sv:property>
-              </sv:node>
-              <sv:node sv:name="newsletter">
-                <sv:property sv:name="jcr:primaryType" sv:type="Name">
-                  <sv:value>mgnl:contentNode</sv:value>
-                </sv:property>
-                <sv:property sv:name="id" sv:type="String">
-                  <sv:value>max-e:components/content_elements/newsletter</sv:value>
                 </sv:property>
               </sv:node>
               <sv:node sv:name="newsletter_sendy">
@@ -2033,14 +2017,6 @@
                   <sv:value>max-e:components/content_elements/iframe</sv:value>
                 </sv:property>
               </sv:node>
-              <sv:node sv:name="newsletter">
-                <sv:property sv:name="jcr:primaryType" sv:type="Name">
-                  <sv:value>mgnl:contentNode</sv:value>
-                </sv:property>
-                <sv:property sv:name="id" sv:type="String">
-                  <sv:value>max-e:components/content_elements/newsletter</sv:value>
-                </sv:property>
-              </sv:node>
               <sv:node sv:name="newsletter_sendy">
                 <sv:property sv:name="jcr:primaryType" sv:type="Name">
                   <sv:value>mgnl:contentNode</sv:value>
@@ -2217,14 +2193,6 @@
                   <sv:value>max-e:components/content_elements/link_list</sv:value>
                 </sv:property>
               </sv:node>
-              <sv:node sv:name="newsletter">
-                <sv:property sv:name="jcr:primaryType" sv:type="Name">
-                  <sv:value>mgnl:contentNode</sv:value>
-                </sv:property>
-                <sv:property sv:name="id" sv:type="String">
-                  <sv:value>max-e:components/content_elements/newsletter</sv:value>
-                </sv:property>
-              </sv:node>
               <sv:node sv:name="newsletter_sendy">
                 <sv:property sv:name="jcr:primaryType" sv:type="Name">
                   <sv:value>mgnl:contentNode</sv:value>
@@ -2311,6 +2279,38 @@
                 </sv:property>
                 <sv:property sv:name="id" sv:type="String">
                   <sv:value>max-e:components/content_elements/button_</sv:value>
+                </sv:property>
+              </sv:node>
+              <sv:node sv:name="formulare_e">
+                <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                  <sv:value>mgnl:contentNode</sv:value>
+                </sv:property>
+                <sv:property sv:name="id" sv:type="String">
+                  <sv:value>max-e:components/content_elements/formulare_e</sv:value>
+                </sv:property>
+                <sv:node sv:name="roles">
+                  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                    <sv:value>mgnl:contentNode</sv:value>
+                  </sv:property>
+                  <sv:property sv:name="superuser" sv:type="String">
+                    <sv:value>superuser</sv:value>
+                  </sv:property>
+                </sv:node>
+              </sv:node>
+              <sv:node sv:name="overview_teaser_collection">
+                <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                  <sv:value>mgnl:contentNode</sv:value>
+                </sv:property>
+                <sv:property sv:name="id" sv:type="String">
+                  <sv:value>max-e:components/overview_elements/overview_teaser_collection</sv:value>
+                </sv:property>
+              </sv:node>
+              <sv:node sv:name="map">
+                <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                  <sv:value>mgnl:contentNode</sv:value>
+                </sv:property>
+                <sv:property sv:name="id" sv:type="String">
+                  <sv:value>max-e:components/content_elements/map</sv:value>
                 </sv:property>
               </sv:node>
             </sv:node>
@@ -2542,23 +2542,6 @@
             </sv:node>
           </sv:node>
         </sv:node>
-      </sv:node>
-      <sv:node sv:name="newsletter">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>mgnl:contentNode</sv:value>
-        </sv:property>
-        <sv:property sv:name="description" sv:type="String">
-          <sv:value>Newsletter Modul Cleverreach</sv:value>
-        </sv:property>
-        <sv:property sv:name="dialog" sv:type="String">
-          <sv:value>max-e:content_elements/newsletter</sv:value>
-        </sv:property>
-        <sv:property sv:name="renderType" sv:type="String">
-          <sv:value>sinicum</sv:value>
-        </sv:property>
-        <sv:property sv:name="title" sv:type="String">
-          <sv:value>Newsletter Modul Cleverreach</sv:value>
-        </sv:property>
       </sv:node>
       <sv:node sv:name="newsletter_sendy">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
