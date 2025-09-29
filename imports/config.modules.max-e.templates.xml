@@ -967,7 +967,7 @@
         <sv:value>mgnl:contentNode</sv:value>
       </sv:property>
       <sv:property sv:name="description" sv:type="String">
-        <sv:value>Homepage Redirect</sv:value>
+        <sv:value>Weiterleitung Homepage</sv:value>
       </sv:property>
       <sv:property sv:name="dialog" sv:type="String">
         <sv:value>max-e:page_properties_homepage_redirect</sv:value>
@@ -979,7 +979,7 @@
         <sv:value>sinicum</sv:value>
       </sv:property>
       <sv:property sv:name="title" sv:type="String">
-        <sv:value>Homepage Redirect</sv:value>
+        <sv:value>Weiterleitung Homepage</sv:value>
       </sv:property>
       <sv:property sv:name="visible" sv:type="String">
         <sv:value>true</sv:value>
@@ -3630,4 +3630,3 @@
     </sv:node>
   </sv:node>
 </sv:node>
-
