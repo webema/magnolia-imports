@@ -2543,6 +2543,34 @@
             </sv:property>
           </sv:node>
         </sv:node>
+        <sv:node sv:name="preferences_personal_data_contact">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:contentNode</sv:value>
+          </sv:property>
+          <sv:property sv:name="appName" sv:type="String">
+            <sv:value>contacts</sv:value>
+          </sv:property>
+          <sv:property sv:name="class" sv:type="String">
+            <sv:value>info.magnolia.ui.form.field.definition.LinkFieldDefinition</sv:value>
+          </sv:property>
+          <sv:property sv:name="description" sv:type="String">
+            <sv:value>Geben Sie hier die sogenannte „verantwortliche Stelle“ nach § 4 Nr. 9 DSG-EKD an. Die verantwortliche Stelle ist die kirchliche Stelle, die über die „Zwecke und Mittel der Verarbeitung von personenbezogenen Daten entscheidet“, z.B. die Kirchengemeinde, der Kirchenkreis, die landeskirchliche Einrichtung, die selbstständige Stiftung, der eingetragene Verein.</sv:value>
+          </sv:property>
+          <sv:property sv:name="label" sv:type="String">
+            <sv:value>Verantwortliche Stelle personenbezogene Daten</sv:value>
+          </sv:property>
+          <sv:property sv:name="targetWorkspace" sv:type="String">
+            <sv:value>contacts</sv:value>
+          </sv:property>
+          <sv:node sv:name="identifierToPathConverter">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:contentNode</sv:value>
+            </sv:property>
+            <sv:property sv:name="class" sv:type="String">
+              <sv:value>info.magnolia.ui.form.field.converter.BaseIdentifierToPathConverter</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
         <sv:node sv:name="preferences_editorial_corporation">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>mgnl:contentNode</sv:value>
