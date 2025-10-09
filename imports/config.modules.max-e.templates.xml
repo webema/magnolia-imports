@@ -1575,14 +1575,6 @@
                   <sv:value>max-e:components/content_elements/donation</sv:value>
                 </sv:property>
               </sv:node>
-              <sv:node sv:name="kimutraining_map">
-                <sv:property sv:name="jcr:primaryType" sv:type="Name">
-                  <sv:value>mgnl:contentNode</sv:value>
-                </sv:property>
-                <sv:property sv:name="id" sv:type="String">
-                  <sv:value>max-e:components/content_elements/kimutraining_map</sv:value>
-                </sv:property>
-              </sv:node>
               <sv:node sv:name="door_calendar">
                 <sv:property sv:name="jcr:primaryType" sv:type="Name">
                   <sv:value>mgnl:contentNode</sv:value>
@@ -3112,46 +3104,6 @@
         <sv:property sv:name="title" sv:type="String">
           <sv:value>Online-Kollekte</sv:value>
         </sv:property>
-      </sv:node>
-      <sv:node sv:name="kimutraining_map">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>mgnl:contentNode</sv:value>
-        </sv:property>
-        <sv:property sv:name="description" sv:type="String">
-          <sv:value>Kimutraining Karte</sv:value>
-        </sv:property>
-        <sv:property sv:name="dialog" sv:type="String">
-          <sv:value>max-e:content_elements/kimutraining_map</sv:value>
-        </sv:property>
-        <sv:property sv:name="renderType" sv:type="String">
-          <sv:value>sinicum</sv:value>
-        </sv:property>
-        <sv:property sv:name="title" sv:type="String">
-          <sv:value>Kimutraining Karte</sv:value>
-        </sv:property>
-        <sv:node sv:name="areas">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>mgnl:contentNode</sv:value>
-          </sv:property>
-          <sv:node sv:name="map_markers">
-            <sv:property sv:name="jcr:primaryType" sv:type="Name">
-              <sv:value>mgnl:contentNode</sv:value>
-            </sv:property>
-            <sv:node sv:name="availableComponents">
-              <sv:property sv:name="jcr:primaryType" sv:type="Name">
-                <sv:value>mgnl:contentNode</sv:value>
-              </sv:property>
-              <sv:node sv:name="map_marker">
-                <sv:property sv:name="jcr:primaryType" sv:type="Name">
-                  <sv:value>mgnl:contentNode</sv:value>
-                </sv:property>
-                <sv:property sv:name="id" sv:type="String">
-                  <sv:value>max-e:components/content_elements/map_marker</sv:value>
-                </sv:property>
-              </sv:node>
-            </sv:node>
-          </sv:node>
-        </sv:node>
       </sv:node>
       <sv:node sv:name="calendar_door">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
