@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node sv:name="generic-default" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>mgnl:folder</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>0a2ed59b-358d-43a6-87a7-4b97633b1c92</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:createdBy" sv:type="String">
+    <sv:value>admin</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:created" sv:type="Date">
+    <sv:value>2016-08-01T14:45:47.428+02:00</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:createdBy" sv:type="String">
+    <sv:value>christian_aendekerk</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+    <sv:value>2016-11-18T10:53:36.552+01:00</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+    <sv:value>superuser</sv:value>
+  </sv:property>
+  <sv:node sv:name="generic-default-base-user">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>mgnl:group</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>c7b9ffbb-1416-4d64-b23b-18393033c270</sv:value>
+    </sv:property>
+    <sv:property sv:name="description" sv:type="String">
+      <sv:value>Zusammenfassung aller Basisrollen für generic-default. Erlaubt nur das Lesen und das Anmelden am System.</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:createdBy" sv:type="String">
+      <sv:value>admin</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:created" sv:type="Date">
+      <sv:value>2016-08-01T14:47:52.122+02:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:createdBy" sv:type="String">
+      <sv:value>christian_aendekerk</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+      <sv:value>2016-09-08T14:19:41.764+02:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="title" sv:type="String">
+      <sv:value>generic-default-base-user</sv:value>
+    </sv:property>
+    <sv:node sv:name="groups">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:contentNode</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:lockable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>05640c1c-e138-4157-ae1a-f8e442f543c3</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2016-08-01T14:47:52.123+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>christian_aendekerk</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2016-08-01T14:47:52.123+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>christian_aendekerk</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="roles">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:contentNode</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:lockable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>575672bb-201e-4d1b-9007-112ebdbccb45</sv:value>
+      </sv:property>
+      <sv:property sv:name="0" sv:type="String">
+        <sv:value>7aad4353-6b89-4464-bc67-8d52c7c9b11c</sv:value>
+      </sv:property>
+      <sv:property sv:name="1" sv:type="String">
+        <sv:value>26762255-b534-4d57-b5ff-aa8cb861c5e5</sv:value>
+      </sv:property>
+      <sv:property sv:name="2" sv:type="String">
+        <sv:value>de9488a4-0e7b-4c3c-a995-70f11e23925f</sv:value>
+      </sv:property>
+      <sv:property sv:name="3" sv:type="String">
+        <sv:value>744630e6-1edd-4745-b8cf-fbb545cb1744</sv:value>
+      </sv:property>
+      <sv:property sv:name="4" sv:type="String">
+        <sv:value>3061da39-9837-45fc-a7ee-0fb695399949</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2016-08-01T14:47:52.124+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>christian_aendekerk</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2016-09-08T14:19:41.765+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="generic-default-adva-user">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>mgnl:group</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>d5c6791b-824e-4cb3-9267-2d3247e2a9b5</sv:value>
+    </sv:property>
+    <sv:property sv:name="description" sv:type="String">
+      <sv:value>Zusammenfassung aller Basisrollen für generic-default. Erlaubt sowohl das Lesen, Schreiben und das Anmelden am System.</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:createdBy" sv:type="String">
+      <sv:value>admin</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:created" sv:type="Date">
+      <sv:value>2016-08-01T15:31:47.418+02:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:createdBy" sv:type="String">
+      <sv:value>christian_aendekerk</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+      <sv:value>2016-11-21T14:26:14.854+01:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+      <sv:value>christian_aendekerk</sv:value>
+    </sv:property>
+    <sv:property sv:name="title" sv:type="String">
+      <sv:value>generic-default-adva-user</sv:value>
+    </sv:property>
+    <sv:node sv:name="groups">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:contentNode</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:lockable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>3760e9be-16df-415a-b11a-e15117017466</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2016-08-01T15:31:47.419+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>christian_aendekerk</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2016-09-08T13:39:40.060+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="roles">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:contentNode</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:lockable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>5736691b-2470-46fb-9d5d-cf17462db1d8</sv:value>
+      </sv:property>
+      <sv:property sv:name="0" sv:type="String">
+        <sv:value>26762255-b534-4d57-b5ff-aa8cb861c5e5</sv:value>
+      </sv:property>
+      <sv:property sv:name="1" sv:type="String">
+        <sv:value>afacc308-0872-43c4-8446-0ea2fa95262e</sv:value>
+      </sv:property>
+      <sv:property sv:name="2" sv:type="String">
+        <sv:value>9470a071-99a8-4dd5-83ad-3e93a69edd67</sv:value>
+      </sv:property>
+      <sv:property sv:name="4" sv:type="String">
+        <sv:value>9bfc6b4f-33cb-4ca5-8eb7-2fa9baceb270</sv:value>
+      </sv:property>
+      <sv:property sv:name="5" sv:type="String">
+        <sv:value>79ca76d5-f568-47e3-a4a1-cc120a7586f5</sv:value>
+      </sv:property>
+      <sv:property sv:name="6" sv:type="String">
+        <sv:value>5471832d-b50c-48d0-a21e-45dc1382347c</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2016-08-01T15:31:47.421+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>christian_aendekerk</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2016-11-21T14:26:14.856+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>christian_aendekerk</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+</sv:node>
