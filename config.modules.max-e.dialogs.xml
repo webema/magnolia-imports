@@ -11336,7 +11336,7 @@
                 <sv:property sv:name="jcr:primaryType" sv:type="Name">
                   <sv:value>mgnl:contentNode</sv:value>
                 </sv:property>
-                <sv:node sv:name="image">
+                <sv:node sv:name="background_image">
                   <sv:property sv:name="jcr:primaryType" sv:type="Name">
                     <sv:value>mgnl:contentNode</sv:value>
                   </sv:property>
@@ -11363,6 +11363,28 @@
                       <sv:value>info.magnolia.ui.form.field.converter.BaseIdentifierToPathConverter</sv:value>
                     </sv:property>
                   </sv:node>
+                </sv:node>
+                <sv:node sv:name="background_color">
+                  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                    <sv:value>mgnl:contentNode</sv:value>
+                  </sv:property>
+                  <sv:property sv:name="class" sv:type="String">
+                    <sv:value>info.magnolia.ui.form.field.definition.TextFieldDefinition</sv:value>
+                  </sv:property>
+                  <sv:property sv:name="label" sv:type="String">
+                    <sv:value>Farbe (css)</sv:value>
+                  </sv:property>
+                </sv:node>
+                <sv:node sv:name="background_size">
+                  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                    <sv:value>mgnl:contentNode</sv:value>
+                  </sv:property>
+                  <sv:property sv:name="class" sv:type="String">
+                    <sv:value>info.magnolia.ui.form.field.definition.TextFieldDefinition</sv:value>
+                  </sv:property>
+                  <sv:property sv:name="label" sv:type="String">
+                    <sv:value>Größe (css)</sv:value>
+                  </sv:property>
                 </sv:node>
               </sv:node>
             </sv:node>
