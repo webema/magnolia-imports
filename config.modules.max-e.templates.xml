@@ -2416,6 +2416,14 @@
                     <sv:value>max-e:components/content_elements/reboot/tile_grid</sv:value>
                   </sv:property>
                 </sv:node>
+                <sv:node sv:name="article">
+                  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                    <sv:value>mgnl:contentNode</sv:value>
+                  </sv:property>
+                  <sv:property sv:name="id" sv:type="String">
+                    <sv:value>max-e:components/content_elements/reboot/article</sv:value>
+                  </sv:property>
+                </sv:node>
                 <sv:node sv:name="accordion">
                   <sv:property sv:name="jcr:primaryType" sv:type="Name">
                     <sv:value>mgnl:contentNode</sv:value>
@@ -3394,12 +3402,68 @@
             </sv:node>
           </sv:node>
         </sv:node>
+        <sv:node sv:name="article">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:contentNode</sv:value>
+          </sv:property>
+          <sv:property sv:name="description" sv:type="String">
+            <sv:value>Artikel (reboot)</sv:value>
+          </sv:property>
+          <sv:property sv:name="dialog" sv:type="String">
+            <sv:value>max-e:content_elements/reboot/article</sv:value>
+          </sv:property>
+          <sv:property sv:name="renderType" sv:type="String">
+            <sv:value>sinicum</sv:value>
+          </sv:property>
+          <sv:property sv:name="title" sv:type="String">
+            <sv:value>Artikel (reboot)</sv:value>
+          </sv:property>
+          <sv:node sv:name="areas">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:contentNode</sv:value>
+            </sv:property>
+            <sv:node sv:name="article_elements">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>mgnl:contentNode</sv:value>
+              </sv:property>
+              <sv:node sv:name="availableComponents">
+                <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                  <sv:value>mgnl:contentNode</sv:value>
+                </sv:property>
+                <sv:node sv:name="paragraph">
+                  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                    <sv:value>mgnl:contentNode</sv:value>
+                  </sv:property>
+                  <sv:property sv:name="id" sv:type="String">
+                    <sv:value>max-e:components/content_elements/reboot/article_elements/paragraph</sv:value>
+                  </sv:property>
+                </sv:node>
+                <sv:node sv:name="accordion">
+                  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                    <sv:value>mgnl:contentNode</sv:value>
+                  </sv:property>
+                  <sv:property sv:name="id" sv:type="String">
+                    <sv:value>max-e:components/content_elements/reboot/article_elements/accordion</sv:value>
+                  </sv:property>
+                </sv:node>
+                <sv:node sv:name="image">
+                  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                    <sv:value>mgnl:contentNode</sv:value>
+                  </sv:property>
+                  <sv:property sv:name="id" sv:type="String">
+                    <sv:value>max-e:components/content_elements/reboot/article_elements/image</sv:value>
+                  </sv:property>
+                </sv:node>
+              </sv:node>
+            </sv:node>
+          </sv:node>
+        </sv:node>
         <sv:node sv:name="accordion">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>mgnl:contentNode</sv:value>
           </sv:property>
           <sv:property sv:name="description" sv:type="String">
-            <sv:value>Akkordeon</sv:value>
+            <sv:value>Akkordeon (reboot)</sv:value>
           </sv:property>
           <sv:property sv:name="dialog" sv:type="String">
             <sv:value>max-e:content_elements/reboot/accordion</sv:value>
@@ -3408,7 +3472,7 @@
             <sv:value>sinicum</sv:value>
           </sv:property>
           <sv:property sv:name="title" sv:type="String">
-            <sv:value>Akkordeon</sv:value>
+            <sv:value>Akkordeon (reboot)</sv:value>
           </sv:property>
           <sv:node sv:name="areas">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -3450,6 +3514,85 @@
           <sv:property sv:name="title" sv:type="String">
             <sv:value>Akkordeon-Element</sv:value>
           </sv:property>
+        </sv:node>
+        <sv:node sv:name="article_elements">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:content</sv:value>
+          </sv:property>
+          <sv:node sv:name="paragraph">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:contentNode</sv:value>
+            </sv:property>
+            <sv:property sv:name="description" sv:type="String">
+              <sv:value>Absatz (reboot)</sv:value>
+            </sv:property>
+            <sv:property sv:name="dialog" sv:type="String">
+              <sv:value>max-e:content_elements/reboot/article_elements/paragraph</sv:value>
+            </sv:property>
+            <sv:property sv:name="renderType" sv:type="String">
+              <sv:value>sinicum</sv:value>
+            </sv:property>
+            <sv:property sv:name="title" sv:type="String">
+              <sv:value>Absatz (reboot)</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:contentNode</sv:value>
+            </sv:property>
+            <sv:property sv:name="description" sv:type="String">
+              <sv:value>Bild (reboot)</sv:value>
+            </sv:property>
+            <sv:property sv:name="dialog" sv:type="String">
+              <sv:value>max-e:content_elements/reboot/article_elements/image</sv:value>
+            </sv:property>
+            <sv:property sv:name="renderType" sv:type="String">
+              <sv:value>sinicum</sv:value>
+            </sv:property>
+            <sv:property sv:name="title" sv:type="String">
+              <sv:value>Bild (reboot)</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="accordion">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:contentNode</sv:value>
+            </sv:property>
+            <sv:property sv:name="description" sv:type="String">
+              <sv:value>Akkordeon (reboot)</sv:value>
+            </sv:property>
+            <sv:property sv:name="dialog" sv:type="String">
+              <sv:value>max-e:content_elements/reboot/article_elements/accordion</sv:value>
+            </sv:property>
+            <sv:property sv:name="renderType" sv:type="String">
+              <sv:value>sinicum</sv:value>
+            </sv:property>
+            <sv:property sv:name="title" sv:type="String">
+              <sv:value>Akkordeon (reboot)</sv:value>
+            </sv:property>
+            <sv:node sv:name="areas">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>mgnl:contentNode</sv:value>
+              </sv:property>
+              <sv:node sv:name="accordion_items">
+                <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                  <sv:value>mgnl:contentNode</sv:value>
+                </sv:property>
+                <sv:node sv:name="availableComponents">
+                  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                    <sv:value>mgnl:contentNode</sv:value>
+                  </sv:property>
+                  <sv:node sv:name="accordion_item">
+                    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                      <sv:value>mgnl:contentNode</sv:value>
+                    </sv:property>
+                    <sv:property sv:name="id" sv:type="String">
+                      <sv:value>max-e:components/content_elements/reboot/accordion_item</sv:value>
+                    </sv:property>
+                  </sv:node>
+                </sv:node>
+              </sv:node>
+            </sv:node>
+          </sv:node>
         </sv:node>
       </sv:node>
     </sv:node>
