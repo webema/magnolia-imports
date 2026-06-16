@@ -3438,6 +3438,22 @@
                     <sv:value>max-e:components/content_elements/reboot/article_elements/paragraph</sv:value>
                   </sv:property>
                 </sv:node>
+                <sv:node sv:name="link_list">
+                  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                    <sv:value>mgnl:contentNode</sv:value>
+                  </sv:property>
+                  <sv:property sv:name="id" sv:type="String">
+                    <sv:value>max-e:components/content_elements/reboot/article_elements/link_list</sv:value>
+                  </sv:property>
+                </sv:node>
+                <sv:node sv:name="headline">
+                  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                    <sv:value>mgnl:contentNode</sv:value>
+                  </sv:property>
+                  <sv:property sv:name="id" sv:type="String">
+                    <sv:value>max-e:components/content_elements/reboot/article_elements/headline</sv:value>
+                  </sv:property>
+                </sv:node>
                 <sv:node sv:name="accordion">
                   <sv:property sv:name="jcr:primaryType" sv:type="Name">
                     <sv:value>mgnl:contentNode</sv:value>
@@ -3534,6 +3550,40 @@
             </sv:property>
             <sv:property sv:name="title" sv:type="String">
               <sv:value>Absatz (reboot)</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="headline">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:contentNode</sv:value>
+            </sv:property>
+            <sv:property sv:name="description" sv:type="String">
+              <sv:value>Überschrift (reboot)</sv:value>
+            </sv:property>
+            <sv:property sv:name="dialog" sv:type="String">
+              <sv:value>max-e:content_elements/reboot/article_elements/headline</sv:value>
+            </sv:property>
+            <sv:property sv:name="renderType" sv:type="String">
+              <sv:value>sinicum</sv:value>
+            </sv:property>
+            <sv:property sv:name="title" sv:type="String">
+              <sv:value>Überschrift (reboot)</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="link_list">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:contentNode</sv:value>
+            </sv:property>
+            <sv:property sv:name="description" sv:type="String">
+              <sv:value>Linkliste (reboot)</sv:value>
+            </sv:property>
+            <sv:property sv:name="dialog" sv:type="String">
+              <sv:value>max-e:content_elements/reboot/article_elements/link_list</sv:value>
+            </sv:property>
+            <sv:property sv:name="renderType" sv:type="String">
+              <sv:value>sinicum</sv:value>
+            </sv:property>
+            <sv:property sv:name="title" sv:type="String">
+              <sv:value>Linkliste (reboot)</sv:value>
             </sv:property>
           </sv:node>
           <sv:node sv:name="image">
