@@ -966,6 +966,9 @@
                   <sv:property sv:name="label" sv:type="String">
                     <sv:value>Untertitel</sv:value>
                   </sv:property>
+                  <sv:property sv:name="rows" sv:type="String">
+                    <sv:value>3</sv:value>
+                  </sv:property>
                 </sv:node>
               </sv:node>
             </sv:node>
@@ -11451,6 +11454,9 @@
                   <sv:property sv:name="label" sv:type="String">
                     <sv:value>Untertitel</sv:value>
                   </sv:property>
+                  <sv:property sv:name="rows" sv:type="String">
+                    <sv:value>3</sv:value>
+                  </sv:property>
                 </sv:node>
               </sv:node>
             </sv:node>
@@ -11790,6 +11796,9 @@
                   <sv:property sv:name="label" sv:type="String">
                     <sv:value>Untertitel</sv:value>
                   </sv:property>
+                  <sv:property sv:name="rows" sv:type="String">
+                    <sv:value>3</sv:value>
+                  </sv:property>
                 </sv:node>
               </sv:node>
             </sv:node>
@@ -12005,7 +12014,7 @@
                     <sv:value>info.magnolia.ui.form.field.definition.SelectFieldDefinition</sv:value>
                   </sv:property>
                   <sv:property sv:name="label" sv:type="String">
-                    <sv:value>Breite</sv:value>
+                    <sv:value>Teaser Stil</sv:value>
                   </sv:property>
                   <sv:property sv:name="sortOptions" sv:type="String">
                     <sv:value>false</sv:value>
@@ -12597,6 +12606,9 @@
                   </sv:property>
                   <sv:property sv:name="label" sv:type="String">
                     <sv:value>Untertitel</sv:value>
+                  </sv:property>
+                  <sv:property sv:name="rows" sv:type="String">
+                    <sv:value>3</sv:value>
                   </sv:property>
                 </sv:node>
                 <sv:node sv:name="image">
