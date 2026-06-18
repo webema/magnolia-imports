@@ -11997,6 +11997,50 @@
                     <sv:value>&lt;h3&gt;Teaser&lt;/h3&gt;</sv:value>
                   </sv:property>
                 </sv:node>
+                <sv:node sv:name="teaser_style">
+                  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                    <sv:value>mgnl:contentNode</sv:value>
+                  </sv:property>
+                  <sv:property sv:name="class" sv:type="String">
+                    <sv:value>info.magnolia.ui.form.field.definition.SelectFieldDefinition</sv:value>
+                  </sv:property>
+                  <sv:property sv:name="label" sv:type="String">
+                    <sv:value>Breite</sv:value>
+                  </sv:property>
+                  <sv:property sv:name="sortOptions" sv:type="String">
+                    <sv:value>false</sv:value>
+                  </sv:property>
+                  <sv:property sv:name="type" sv:type="String">
+                    <sv:value>String</sv:value>
+                  </sv:property>
+                  <sv:node sv:name="options">
+                    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                      <sv:value>mgnl:contentNode</sv:value>
+                    </sv:property>
+                    <sv:node sv:name="default">
+                      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                        <sv:value>mgnl:contentNode</sv:value>
+                      </sv:property>
+                      <sv:property sv:name="label" sv:type="String">
+                        <sv:value>Normal</sv:value>
+                      </sv:property>
+                      <sv:property sv:name="value" sv:type="String">
+                        <sv:value>default</sv:value>
+                      </sv:property>
+                    </sv:node>
+                    <sv:node sv:name="padded">
+                      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                        <sv:value>mgnl:contentNode</sv:value>
+                      </sv:property>
+                      <sv:property sv:name="label" sv:type="String">
+                        <sv:value>Gerahmt</sv:value>
+                      </sv:property>
+                      <sv:property sv:name="value" sv:type="String">
+                        <sv:value>padded</sv:value>
+                      </sv:property>
+                    </sv:node>
+                  </sv:node>
+                </sv:node>
                 <sv:node sv:name="background_color">
                   <sv:property sv:name="jcr:primaryType" sv:type="Name">
                     <sv:value>mgnl:contentNode</sv:value>
@@ -13462,15 +13506,29 @@
                           <sv:value>100</sv:value>
                         </sv:property>
                       </sv:node>
-                      <sv:node sv:name="67">
+                      <sv:node sv:name="95">
                         <sv:property sv:name="jcr:primaryType" sv:type="Name">
                           <sv:value>mgnl:contentNode</sv:value>
                         </sv:property>
                         <sv:property sv:name="label" sv:type="String">
-                          <sv:value>2/3 Breite</sv:value>
+                          <sv:value>Groß</sv:value>
+                        </sv:property>
+                        <sv:property sv:name="selected" sv:type="String">
+                          <sv:value>true</sv:value>
                         </sv:property>
                         <sv:property sv:name="value" sv:type="String">
-                          <sv:value>67</sv:value>
+                          <sv:value>95</sv:value>
+                        </sv:property>
+                      </sv:node>
+                      <sv:node sv:name="75">
+                        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                          <sv:value>mgnl:contentNode</sv:value>
+                        </sv:property>
+                        <sv:property sv:name="label" sv:type="String">
+                          <sv:value>Mittel</sv:value>
+                        </sv:property>
+                        <sv:property sv:name="value" sv:type="String">
+                          <sv:value>75</sv:value>
                         </sv:property>
                       </sv:node>
                       <sv:node sv:name="50">
@@ -13478,7 +13536,7 @@
                           <sv:value>mgnl:contentNode</sv:value>
                         </sv:property>
                         <sv:property sv:name="label" sv:type="String">
-                          <sv:value>1/2 Breite</sv:value>
+                          <sv:value>Klein</sv:value>
                         </sv:property>
                         <sv:property sv:name="value" sv:type="String">
                           <sv:value>50</sv:value>
