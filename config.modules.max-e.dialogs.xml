@@ -11521,7 +11521,7 @@
                         <sv:value>mgnl:contentNode</sv:value>
                       </sv:property>
                       <sv:property sv:name="label" sv:type="String">
-                        <sv:value>2</sv:value>
+                        <sv:value>2 Elemente pro Zeile</sv:value>
                       </sv:property>
                       <sv:property sv:name="value" sv:type="String">
                         <sv:value>2</sv:value>
@@ -11532,7 +11532,7 @@
                         <sv:value>mgnl:contentNode</sv:value>
                       </sv:property>
                       <sv:property sv:name="label" sv:type="String">
-                        <sv:value>3</sv:value>
+                        <sv:value>3 Elemente pro Zeile</sv:value>
                       </sv:property>
                       <sv:property sv:name="value" sv:type="String">
                         <sv:value>3</sv:value>
@@ -11543,7 +11543,7 @@
                         <sv:value>mgnl:contentNode</sv:value>
                       </sv:property>
                       <sv:property sv:name="label" sv:type="String">
-                        <sv:value>4</sv:value>
+                        <sv:value>4 Elemente pro Zeile</sv:value>
                       </sv:property>
                       <sv:property sv:name="value" sv:type="String">
                         <sv:value>4</sv:value>
@@ -11576,7 +11576,7 @@
                         <sv:value>mgnl:contentNode</sv:value>
                       </sv:property>
                       <sv:property sv:name="label" sv:type="String">
-                        <sv:value>Weit</sv:value>
+                        <sv:value>Volle Breite</sv:value>
                       </sv:property>
                       <sv:property sv:name="value" sv:type="String">
                         <sv:value>wide</sv:value>
@@ -11591,6 +11591,17 @@
                       </sv:property>
                       <sv:property sv:name="value" sv:type="String">
                         <sv:value>narrow</sv:value>
+                      </sv:property>
+                    </sv:node>
+                    <sv:node sv:name="narrower">
+                      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                        <sv:value>mgnl:contentNode</sv:value>
+                      </sv:property>
+                      <sv:property sv:name="label" sv:type="String">
+                        <sv:value>Schmaler</sv:value>
+                      </sv:property>
+                      <sv:property sv:name="value" sv:type="String">
+                        <sv:value>narrower</sv:value>
                       </sv:property>
                     </sv:node>
                   </sv:node>
@@ -11863,7 +11874,7 @@
                         <sv:value>mgnl:contentNode</sv:value>
                       </sv:property>
                       <sv:property sv:name="label" sv:type="String">
-                        <sv:value>2</sv:value>
+                        <sv:value>2 Elemente pro Zeile</sv:value>
                       </sv:property>
                       <sv:property sv:name="value" sv:type="String">
                         <sv:value>2</sv:value>
@@ -11874,7 +11885,7 @@
                         <sv:value>mgnl:contentNode</sv:value>
                       </sv:property>
                       <sv:property sv:name="label" sv:type="String">
-                        <sv:value>3</sv:value>
+                        <sv:value>3 Elemente pro Zeile</sv:value>
                       </sv:property>
                       <sv:property sv:name="value" sv:type="String">
                         <sv:value>3</sv:value>
@@ -11885,7 +11896,7 @@
                         <sv:value>mgnl:contentNode</sv:value>
                       </sv:property>
                       <sv:property sv:name="label" sv:type="String">
-                        <sv:value>4</sv:value>
+                        <sv:value>4 Elemente pro Zeile</sv:value>
                       </sv:property>
                       <sv:property sv:name="value" sv:type="String">
                         <sv:value>4</sv:value>
@@ -11933,6 +11944,17 @@
                       </sv:property>
                       <sv:property sv:name="value" sv:type="String">
                         <sv:value>narrow</sv:value>
+                      </sv:property>
+                    </sv:node>
+                    <sv:node sv:name="narrower">
+                      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                        <sv:value>mgnl:contentNode</sv:value>
+                      </sv:property>
+                      <sv:property sv:name="label" sv:type="String">
+                        <sv:value>Schmaler</sv:value>
+                      </sv:property>
+                      <sv:property sv:name="value" sv:type="String">
+                        <sv:value>narrower</sv:value>
                       </sv:property>
                     </sv:node>
                   </sv:node>
@@ -12035,6 +12057,17 @@
                       </sv:property>
                       <sv:property sv:name="value" sv:type="String">
                         <sv:value>default</sv:value>
+                      </sv:property>
+                    </sv:node>
+                    <sv:node sv:name="open">
+                      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                        <sv:value>mgnl:contentNode</sv:value>
+                      </sv:property>
+                      <sv:property sv:name="label" sv:type="String">
+                        <sv:value>Luftig</sv:value>
+                      </sv:property>
+                      <sv:property sv:name="value" sv:type="String">
+                        <sv:value>open</sv:value>
                       </sv:property>
                     </sv:node>
                     <sv:node sv:name="padded">
