@@ -13185,20 +13185,6 @@
                       </sv:node>
                     </sv:node>
                   </sv:node>
-                  <sv:node sv:name="highlight">
-                    <sv:property sv:name="jcr:primaryType" sv:type="Name">
-                      <sv:value>mgnl:contentNode</sv:value>
-                    </sv:property>
-                    <sv:property sv:name="buttonLabel" sv:type="String">
-                      <sv:value>Hervorgehoben</sv:value>
-                    </sv:property>
-                    <sv:property sv:name="class" sv:type="String">
-                      <sv:value>info.magnolia.ui.form.field.definition.CheckboxFieldDefinition</sv:value>
-                    </sv:property>
-                    <sv:property sv:name="label" sv:type="String">
-                      <sv:value>Darstellung</sv:value>
-                    </sv:property>
-                  </sv:node>
                 </sv:node>
               </sv:node>
             </sv:node>
@@ -13345,76 +13331,7 @@
                       <sv:value>mgnl:contentNode</sv:value>
                     </sv:property>
                     <sv:property sv:name="buttonLabel" sv:type="String">
-                      <sv:value>Hervorgehoben</sv:value>
-                    </sv:property>
-                    <sv:property sv:name="class" sv:type="String">
-                      <sv:value>info.magnolia.ui.form.field.definition.CheckboxFieldDefinition</sv:value>
-                    </sv:property>
-                    <sv:property sv:name="label" sv:type="String">
-                      <sv:value>Darstellung</sv:value>
-                    </sv:property>
-                  </sv:node>
-                </sv:node>
-              </sv:node>
-            </sv:node>
-          </sv:node>
-        </sv:node>
-        <sv:node sv:name="accordion">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>mgnl:contentNode</sv:value>
-          </sv:property>
-          <sv:node sv:name="actions">
-            <sv:property sv:name="jcr:primaryType" sv:type="Name">
-              <sv:value>mgnl:contentNode</sv:value>
-            </sv:property>
-            <sv:node sv:name="commit">
-              <sv:property sv:name="jcr:primaryType" sv:type="Name">
-                <sv:value>mgnl:contentNode</sv:value>
-              </sv:property>
-              <sv:property sv:name="class" sv:type="String">
-                <sv:value>info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition</sv:value>
-              </sv:property>
-              <sv:property sv:name="label" sv:type="String">
-                <sv:value>save changes</sv:value>
-              </sv:property>
-            </sv:node>
-            <sv:node sv:name="cancel">
-              <sv:property sv:name="jcr:primaryType" sv:type="Name">
-                <sv:value>mgnl:contentNode</sv:value>
-              </sv:property>
-              <sv:property sv:name="class" sv:type="String">
-                <sv:value>info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition</sv:value>
-              </sv:property>
-              <sv:property sv:name="label" sv:type="String">
-                <sv:value>cancel</sv:value>
-              </sv:property>
-            </sv:node>
-          </sv:node>
-          <sv:node sv:name="form">
-            <sv:property sv:name="jcr:primaryType" sv:type="Name">
-              <sv:value>mgnl:contentNode</sv:value>
-            </sv:property>
-            <sv:node sv:name="tabs">
-              <sv:property sv:name="jcr:primaryType" sv:type="Name">
-                <sv:value>mgnl:contentNode</sv:value>
-              </sv:property>
-              <sv:node sv:name="tab_main">
-                <sv:property sv:name="jcr:primaryType" sv:type="Name">
-                  <sv:value>mgnl:contentNode</sv:value>
-                </sv:property>
-                <sv:property sv:name="label" sv:type="String">
-                  <sv:value>Inhalt</sv:value>
-                </sv:property>
-                <sv:node sv:name="fields">
-                  <sv:property sv:name="jcr:primaryType" sv:type="Name">
-                    <sv:value>mgnl:contentNode</sv:value>
-                  </sv:property>
-                  <sv:node sv:name="highlight">
-                    <sv:property sv:name="jcr:primaryType" sv:type="Name">
-                      <sv:value>mgnl:contentNode</sv:value>
-                    </sv:property>
-                    <sv:property sv:name="buttonLabel" sv:type="String">
-                      <sv:value>Hervorgehoben</sv:value>
+                      <sv:value>Nachfolgender Bereich wird hervorgehoben</sv:value>
                     </sv:property>
                     <sv:property sv:name="class" sv:type="String">
                       <sv:value>info.magnolia.ui.form.field.definition.CheckboxFieldDefinition</sv:value>
@@ -13687,20 +13604,6 @@
                         </sv:property>
                       </sv:node>
                     </sv:node>
-                  </sv:node>
-                  <sv:node sv:name="highlight">
-                    <sv:property sv:name="jcr:primaryType" sv:type="Name">
-                      <sv:value>mgnl:contentNode</sv:value>
-                    </sv:property>
-                    <sv:property sv:name="buttonLabel" sv:type="String">
-                      <sv:value>Hervorgehoben</sv:value>
-                    </sv:property>
-                    <sv:property sv:name="class" sv:type="String">
-                      <sv:value>info.magnolia.ui.form.field.definition.CheckboxFieldDefinition</sv:value>
-                    </sv:property>
-                    <sv:property sv:name="label" sv:type="String">
-                      <sv:value>Darstellung</sv:value>
-                    </sv:property>
                   </sv:node>
                 </sv:node>
               </sv:node>
@@ -14128,20 +14031,6 @@
                         </sv:property>
                       </sv:node>
                     </sv:node>
-                  </sv:node>
-                  <sv:node sv:name="highlight">
-                    <sv:property sv:name="jcr:primaryType" sv:type="Name">
-                      <sv:value>mgnl:contentNode</sv:value>
-                    </sv:property>
-                    <sv:property sv:name="buttonLabel" sv:type="String">
-                      <sv:value>Hervorgehoben</sv:value>
-                    </sv:property>
-                    <sv:property sv:name="class" sv:type="String">
-                      <sv:value>info.magnolia.ui.form.field.definition.CheckboxFieldDefinition</sv:value>
-                    </sv:property>
-                    <sv:property sv:name="label" sv:type="String">
-                      <sv:value>Darstellung</sv:value>
-                    </sv:property>
                   </sv:node>
                 </sv:node>
               </sv:node>

@@ -3546,9 +3546,6 @@
           <sv:property sv:name="description" sv:type="String">
             <sv:value>Akkordeon (reboot)</sv:value>
           </sv:property>
-          <sv:property sv:name="dialog" sv:type="String">
-            <sv:value>max-e:content_elements/reboot/accordion</sv:value>
-          </sv:property>
           <sv:property sv:name="renderType" sv:type="String">
             <sv:value>sinicum</sv:value>
           </sv:property>
