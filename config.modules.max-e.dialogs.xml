@@ -13185,6 +13185,20 @@
                       </sv:node>
                     </sv:node>
                   </sv:node>
+                  <sv:node sv:name="highlight">
+                    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                      <sv:value>mgnl:contentNode</sv:value>
+                    </sv:property>
+                    <sv:property sv:name="buttonLabel" sv:type="String">
+                      <sv:value>Nachfolgender Bereich wird hervorgehoben</sv:value>
+                    </sv:property>
+                    <sv:property sv:name="class" sv:type="String">
+                      <sv:value>info.magnolia.ui.form.field.definition.CheckboxFieldDefinition</sv:value>
+                    </sv:property>
+                    <sv:property sv:name="label" sv:type="String">
+                      <sv:value>Darstellung</sv:value>
+                    </sv:property>
+                  </sv:node>
                 </sv:node>
               </sv:node>
             </sv:node>
@@ -13604,6 +13618,20 @@
                         </sv:property>
                       </sv:node>
                     </sv:node>
+                  </sv:node>
+                  <sv:node sv:name="highlight">
+                    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                      <sv:value>mgnl:contentNode</sv:value>
+                    </sv:property>
+                    <sv:property sv:name="buttonLabel" sv:type="String">
+                      <sv:value>Nachfolgender Bereich wird hervorgehoben</sv:value>
+                    </sv:property>
+                    <sv:property sv:name="class" sv:type="String">
+                      <sv:value>info.magnolia.ui.form.field.definition.CheckboxFieldDefinition</sv:value>
+                    </sv:property>
+                    <sv:property sv:name="label" sv:type="String">
+                      <sv:value>Darstellung</sv:value>
+                    </sv:property>
                   </sv:node>
                 </sv:node>
               </sv:node>
@@ -14031,6 +14059,20 @@
                         </sv:property>
                       </sv:node>
                     </sv:node>
+                  </sv:node>
+                  <sv:node sv:name="highlight">
+                    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                      <sv:value>mgnl:contentNode</sv:value>
+                    </sv:property>
+                    <sv:property sv:name="buttonLabel" sv:type="String">
+                      <sv:value>Nachfolgender Bereich wird hervorgehoben</sv:value>
+                    </sv:property>
+                    <sv:property sv:name="class" sv:type="String">
+                      <sv:value>info.magnolia.ui.form.field.definition.CheckboxFieldDefinition</sv:value>
+                    </sv:property>
+                    <sv:property sv:name="label" sv:type="String">
+                      <sv:value>Darstellung</sv:value>
+                    </sv:property>
                   </sv:node>
                 </sv:node>
               </sv:node>
