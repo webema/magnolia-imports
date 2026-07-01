@@ -12564,6 +12564,23 @@
                     <sv:value>Inhaltssverzeichnis</sv:value>
                   </sv:property>
                 </sv:node>
+                <sv:node sv:name="breadcrumb">
+                  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                    <sv:value>mgnl:contentNode</sv:value>
+                  </sv:property>
+                  <sv:property sv:name="buttonLabel" sv:type="String">
+                    <sv:value>Pfad-Navigation</sv:value>
+                  </sv:property>
+                  <sv:property sv:name="class" sv:type="String">
+                    <sv:value>info.magnolia.ui.form.field.definition.CheckboxFieldDefinition</sv:value>
+                  </sv:property>
+                  <sv:property sv:name="defaultValue" sv:type="String">
+                    <sv:value>false</sv:value>
+                  </sv:property>
+                  <sv:property sv:name="label" sv:type="String">
+                    <sv:value>Navigation</sv:value>
+                  </sv:property>
+                </sv:node>
               </sv:node>
             </sv:node>
           </sv:node>
