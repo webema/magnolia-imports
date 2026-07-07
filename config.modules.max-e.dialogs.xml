@@ -11245,6 +11245,17 @@
                     </sv:node>
                   </sv:node>
                 </sv:node>
+                <sv:node sv:name="icon_class">
+                  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                    <sv:value>mgnl:contentNode</sv:value>
+                  </sv:property>
+                  <sv:property sv:name="class" sv:type="String">
+                    <sv:value>info.magnolia.ui.form.field.definition.TextFieldDefinition</sv:value>
+                  </sv:property>
+                  <sv:property sv:name="label" sv:type="String">
+                    <sv:value>bi-icon Klasse</sv:value>
+                  </sv:property>
+                </sv:node>
                 <sv:node sv:name="image">
                   <sv:property sv:name="jcr:primaryType" sv:type="Name">
                     <sv:value>mgnl:contentNode</sv:value>
@@ -11729,6 +11740,64 @@
                   </sv:property>
                   <sv:property sv:name="label" sv:type="String">
                     <sv:value>Schatten</sv:value>
+                  </sv:property>
+                </sv:node>
+                <sv:node sv:name="headline_icons">
+                  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                    <sv:value>mgnl:contentNode</sv:value>
+                  </sv:property>
+                  <sv:property sv:name="class" sv:type="String">
+                    <sv:value>info.magnolia.ui.form.field.definition.StaticFieldDefinition</sv:value>
+                  </sv:property>
+                  <sv:property sv:name="label" sv:type="String">
+                    <sv:value />
+                  </sv:property>
+                  <sv:property sv:name="value" sv:type="String">
+                    <sv:value>&lt;h3&gt;Icons&lt;/h3&gt;</sv:value>
+                  </sv:property>
+                </sv:node>
+                <sv:node sv:name="icon_color">
+                  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                    <sv:value>mgnl:contentNode</sv:value>
+                  </sv:property>
+                  <sv:property sv:name="class" sv:type="String">
+                    <sv:value>info.magnolia.ui.form.field.definition.TextFieldDefinition</sv:value>
+                  </sv:property>
+                  <sv:property sv:name="label" sv:type="String">
+                    <sv:value>Icon-Farbe (css)</sv:value>
+                  </sv:property>
+                </sv:node>
+                <sv:node sv:name="icon_color_hover">
+                  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                    <sv:value>mgnl:contentNode</sv:value>
+                  </sv:property>
+                  <sv:property sv:name="class" sv:type="String">
+                    <sv:value>info.magnolia.ui.form.field.definition.TextFieldDefinition</sv:value>
+                  </sv:property>
+                  <sv:property sv:name="label" sv:type="String">
+                    <sv:value>Icon-Farbe Hover (css, optional)</sv:value>
+                  </sv:property>
+                </sv:node>
+                <sv:node sv:name="icon_bg_color">
+                  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                    <sv:value>mgnl:contentNode</sv:value>
+                  </sv:property>
+                  <sv:property sv:name="class" sv:type="String">
+                    <sv:value>info.magnolia.ui.form.field.definition.TextFieldDefinition</sv:value>
+                  </sv:property>
+                  <sv:property sv:name="label" sv:type="String">
+                    <sv:value>Icon-Hintergrundfarbe (css)</sv:value>
+                  </sv:property>
+                </sv:node>
+                <sv:node sv:name="icon_bg_color_hover">
+                  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                    <sv:value>mgnl:contentNode</sv:value>
+                  </sv:property>
+                  <sv:property sv:name="class" sv:type="String">
+                    <sv:value>info.magnolia.ui.form.field.definition.TextFieldDefinition</sv:value>
+                  </sv:property>
+                  <sv:property sv:name="label" sv:type="String">
+                    <sv:value>Icon-Hintergrundfarbe Hover (css, optional)</sv:value>
                   </sv:property>
                 </sv:node>
               </sv:node>
