@@ -1137,6 +1137,9 @@
                 <sv:property sv:name="sortable" sv:type="String">
                   <sv:value>true</sv:value>
                 </sv:property>
+                <sv:property sv:name="thumbnails" sv:type="String">
+                  <sv:value>false</sv:value>
+                </sv:property>
               </sv:node>
               <sv:node sv:name="path">
                 <sv:property sv:name="jcr:primaryType" sv:type="Name">
