@@ -1384,14 +1384,6 @@
                   <sv:value>max-e:components/content_areas/reboot/content_section</sv:value>
                 </sv:property>
               </sv:node>
-              <sv:node sv:name="hero">
-                <sv:property sv:name="jcr:primaryType" sv:type="Name">
-                  <sv:value>mgnl:contentNode</sv:value>
-                </sv:property>
-                <sv:property sv:name="id" sv:type="String">
-                  <sv:value>max-e:components/content_elements/reboot/hero</sv:value>
-                </sv:property>
-              </sv:node>
             </sv:node>
           </sv:node>
         </sv:node>
@@ -2400,6 +2392,30 @@
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
               <sv:value>mgnl:contentNode</sv:value>
             </sv:property>
+            <sv:node sv:name="content_section_hero">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>mgnl:contentNode</sv:value>
+              </sv:property>
+              <sv:property sv:name="maxComponents" sv:type="String">
+                <sv:value>1</sv:value>
+              </sv:property>
+              <sv:property sv:name="type" sv:type="String">
+                <sv:value>list</sv:value>
+              </sv:property>
+              <sv:node sv:name="availableComponents">
+                <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                  <sv:value>mgnl:contentNode</sv:value>
+                </sv:property>
+                <sv:node sv:name="hero">
+                  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                    <sv:value>mgnl:contentNode</sv:value>
+                  </sv:property>
+                  <sv:property sv:name="id" sv:type="String">
+                    <sv:value>max-e:components/content_elements/reboot/hero</sv:value>
+                  </sv:property>
+                </sv:node>
+              </sv:node>
+            </sv:node>
             <sv:node sv:name="content_section_content">
               <sv:property sv:name="jcr:primaryType" sv:type="Name">
                 <sv:value>mgnl:contentNode</sv:value>
