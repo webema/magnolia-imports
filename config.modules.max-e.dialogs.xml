@@ -15683,6 +15683,9 @@
               <sv:property sv:name="name" sv:type="String">
                 <sv:value>title</sv:value>
               </sv:property>
+              <sv:property sv:name="required" sv:type="String">
+                <sv:value>true</sv:value>
+              </sv:property>
               <sv:property sv:name="rows" sv:type="String">
                 <sv:value>2</sv:value>
               </sv:property>
@@ -16438,6 +16441,9 @@
               </sv:property>
               <sv:property sv:name="label" sv:type="String">
                 <sv:value>Seitentitel</sv:value>
+              </sv:property>
+              <sv:property sv:name="required" sv:type="String">
+                <sv:value>true</sv:value>
               </sv:property>
               <sv:property sv:name="rows" sv:type="String">
                 <sv:value>2</sv:value>
@@ -17884,6 +17890,9 @@
               <sv:property sv:name="name" sv:type="String">
                 <sv:value>title</sv:value>
               </sv:property>
+              <sv:property sv:name="required" sv:type="String">
+                <sv:value>true</sv:value>
+              </sv:property>
               <sv:property sv:name="rows" sv:type="String">
                 <sv:value>1</sv:value>
               </sv:property>
@@ -18760,6 +18769,9 @@
               <sv:property sv:name="name" sv:type="String">
                 <sv:value>title</sv:value>
               </sv:property>
+              <sv:property sv:name="required" sv:type="String">
+                <sv:value>true</sv:value>
+              </sv:property>
               <sv:property sv:name="rows" sv:type="String">
                 <sv:value>1</sv:value>
               </sv:property>
@@ -19147,6 +19159,9 @@
               </sv:property>
               <sv:property sv:name="label" sv:type="String">
                 <sv:value>Seitentitel</sv:value>
+              </sv:property>
+              <sv:property sv:name="required" sv:type="String">
+                <sv:value>true</sv:value>
               </sv:property>
               <sv:property sv:name="rows" sv:type="String">
                 <sv:value>2</sv:value>
@@ -19728,6 +19743,9 @@
               <sv:property sv:name="name" sv:type="String">
                 <sv:value>title</sv:value>
               </sv:property>
+              <sv:property sv:name="required" sv:type="String">
+                <sv:value>true</sv:value>
+              </sv:property>
               <sv:property sv:name="rows" sv:type="String">
                 <sv:value>2</sv:value>
               </sv:property>
@@ -20129,6 +20147,9 @@
                 </sv:property>
                 <sv:property sv:name="name" sv:type="String">
                   <sv:value>title</sv:value>
+                </sv:property>
+                <sv:property sv:name="required" sv:type="String">
+                  <sv:value>true</sv:value>
                 </sv:property>
                 <sv:property sv:name="type" sv:type="String">
                   <sv:value>String</sv:value>
@@ -21409,6 +21430,9 @@
                 </sv:property>
                 <sv:property sv:name="name" sv:type="String">
                   <sv:value>title</sv:value>
+                </sv:property>
+                <sv:property sv:name="required" sv:type="String">
+                  <sv:value>true</sv:value>
                 </sv:property>
                 <sv:property sv:name="type" sv:type="String">
                   <sv:value>String</sv:value>
