@@ -1650,6 +1650,14 @@
                   <sv:value>max-e:components/content_elements/button_</sv:value>
                 </sv:property>
               </sv:node>
+              <sv:node sv:name="hr">
+                <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                  <sv:value>mgnl:contentNode</sv:value>
+                </sv:property>
+                <sv:property sv:name="id" sv:type="String">
+                  <sv:value>max-e:components/content_elements/hr</sv:value>
+                </sv:property>
+              </sv:node>
               <sv:node sv:name="comments">
                 <sv:property sv:name="jcr:primaryType" sv:type="Name">
                   <sv:value>mgnl:contentNode</sv:value>
@@ -1864,6 +1872,14 @@
                 </sv:property>
                 <sv:property sv:name="id" sv:type="String">
                   <sv:value>max-e:components/content_elements/button_</sv:value>
+                </sv:property>
+              </sv:node>
+              <sv:node sv:name="hr">
+                <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                  <sv:value>mgnl:contentNode</sv:value>
+                </sv:property>
+                <sv:property sv:name="id" sv:type="String">
+                  <sv:value>max-e:components/content_elements/hr</sv:value>
                 </sv:property>
               </sv:node>
             </sv:node>
@@ -3346,6 +3362,20 @@
         </sv:property>
         <sv:property sv:name="title" sv:type="String">
           <sv:value>Schaltfläche mit Kommentarzähler (optional)</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hr">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:contentNode</sv:value>
+        </sv:property>
+        <sv:property sv:name="description" sv:type="String">
+          <sv:value>Trennlinie</sv:value>
+        </sv:property>
+        <sv:property sv:name="renderType" sv:type="String">
+          <sv:value>sinicum</sv:value>
+        </sv:property>
+        <sv:property sv:name="title" sv:type="String">
+          <sv:value>Trennlinie</sv:value>
         </sv:property>
       </sv:node>
       <sv:node sv:name="reboot">
