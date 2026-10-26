@@ -11645,7 +11645,7 @@
                     <sv:value>mgnl:contentNode</sv:value>
                   </sv:property>
                   <sv:property sv:name="buttonLabel" sv:type="String">
-                    <sv:value>Untermenü</sv:value>
+                    <sv:value>Untermenü einblenden</sv:value>
                   </sv:property>
                   <sv:property sv:name="class" sv:type="String">
                     <sv:value>info.magnolia.ui.form.field.definition.CheckboxFieldDefinition</sv:value>
@@ -11654,7 +11654,7 @@
                     <sv:value>false</sv:value>
                   </sv:property>
                   <sv:property sv:name="label" sv:type="String">
-                    <sv:value>Untermenü einblenden</sv:value>
+                    <sv:value>Untermenü</sv:value>
                   </sv:property>
                   <sv:property sv:name="line" sv:type="String">
                     <sv:value>false</sv:value>
