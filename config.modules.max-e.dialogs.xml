@@ -11640,6 +11640,29 @@
                     </sv:node>
                   </sv:node>
                 </sv:node>
+                <sv:node sv:name="show_navigation">
+                  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                    <sv:value>mgnl:contentNode</sv:value>
+                  </sv:property>
+                  <sv:property sv:name="buttonLabel" sv:type="String">
+                    <sv:value>Untermenü</sv:value>
+                  </sv:property>
+                  <sv:property sv:name="class" sv:type="String">
+                    <sv:value>info.magnolia.ui.form.field.definition.CheckboxFieldDefinition</sv:value>
+                  </sv:property>
+                  <sv:property sv:name="defaultValue" sv:type="Boolean">
+                    <sv:value>false</sv:value>
+                  </sv:property>
+                  <sv:property sv:name="label" sv:type="String">
+                    <sv:value>Untermenü einblenden</sv:value>
+                  </sv:property>
+                  <sv:property sv:name="line" sv:type="String">
+                    <sv:value>false</sv:value>
+                  </sv:property>
+                  <sv:property sv:name="type" sv:type="String">
+                    <sv:value>Boolean</sv:value>
+                  </sv:property>
+                </sv:node>
               </sv:node>
             </sv:node>
             <sv:node sv:name="tab_style">
