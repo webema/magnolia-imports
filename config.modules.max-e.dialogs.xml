@@ -11952,17 +11952,6 @@
                 <sv:property sv:name="jcr:primaryType" sv:type="Name">
                   <sv:value>mgnl:contentNode</sv:value>
                 </sv:property>
-                <sv:node sv:name="eyebrow">
-                  <sv:property sv:name="jcr:primaryType" sv:type="Name">
-                    <sv:value>mgnl:contentNode</sv:value>
-                  </sv:property>
-                  <sv:property sv:name="class" sv:type="String">
-                    <sv:value>info.magnolia.ui.form.field.definition.TextFieldDefinition</sv:value>
-                  </sv:property>
-                  <sv:property sv:name="label" sv:type="String">
-                    <sv:value>Überzeile</sv:value>
-                  </sv:property>
-                </sv:node>
                 <sv:node sv:name="title">
                   <sv:property sv:name="jcr:primaryType" sv:type="Name">
                     <sv:value>mgnl:contentNode</sv:value>
@@ -11972,20 +11961,6 @@
                   </sv:property>
                   <sv:property sv:name="label" sv:type="String">
                     <sv:value>Titel</sv:value>
-                  </sv:property>
-                </sv:node>
-                <sv:node sv:name="subtitle">
-                  <sv:property sv:name="jcr:primaryType" sv:type="Name">
-                    <sv:value>mgnl:contentNode</sv:value>
-                  </sv:property>
-                  <sv:property sv:name="class" sv:type="String">
-                    <sv:value>info.magnolia.ui.form.field.definition.TextFieldDefinition</sv:value>
-                  </sv:property>
-                  <sv:property sv:name="label" sv:type="String">
-                    <sv:value>Untertitel</sv:value>
-                  </sv:property>
-                  <sv:property sv:name="rows" sv:type="String">
-                    <sv:value>3</sv:value>
                   </sv:property>
                 </sv:node>
               </sv:node>
@@ -12510,17 +12485,6 @@
                 <sv:property sv:name="jcr:primaryType" sv:type="Name">
                   <sv:value>mgnl:contentNode</sv:value>
                 </sv:property>
-                <sv:node sv:name="eyebrow">
-                  <sv:property sv:name="jcr:primaryType" sv:type="Name">
-                    <sv:value>mgnl:contentNode</sv:value>
-                  </sv:property>
-                  <sv:property sv:name="class" sv:type="String">
-                    <sv:value>info.magnolia.ui.form.field.definition.TextFieldDefinition</sv:value>
-                  </sv:property>
-                  <sv:property sv:name="label" sv:type="String">
-                    <sv:value>Überzeile</sv:value>
-                  </sv:property>
-                </sv:node>
                 <sv:node sv:name="title">
                   <sv:property sv:name="jcr:primaryType" sv:type="Name">
                     <sv:value>mgnl:contentNode</sv:value>
@@ -12530,20 +12494,6 @@
                   </sv:property>
                   <sv:property sv:name="label" sv:type="String">
                     <sv:value>Titel</sv:value>
-                  </sv:property>
-                </sv:node>
-                <sv:node sv:name="subtitle">
-                  <sv:property sv:name="jcr:primaryType" sv:type="Name">
-                    <sv:value>mgnl:contentNode</sv:value>
-                  </sv:property>
-                  <sv:property sv:name="class" sv:type="String">
-                    <sv:value>info.magnolia.ui.form.field.definition.TextFieldDefinition</sv:value>
-                  </sv:property>
-                  <sv:property sv:name="label" sv:type="String">
-                    <sv:value>Untertitel</sv:value>
-                  </sv:property>
-                  <sv:property sv:name="rows" sv:type="String">
-                    <sv:value>3</sv:value>
                   </sv:property>
                 </sv:node>
               </sv:node>
@@ -13384,17 +13334,6 @@
                 <sv:property sv:name="jcr:primaryType" sv:type="Name">
                   <sv:value>mgnl:contentNode</sv:value>
                 </sv:property>
-                <sv:node sv:name="eyebrow">
-                  <sv:property sv:name="jcr:primaryType" sv:type="Name">
-                    <sv:value>mgnl:contentNode</sv:value>
-                  </sv:property>
-                  <sv:property sv:name="class" sv:type="String">
-                    <sv:value>info.magnolia.ui.form.field.definition.TextFieldDefinition</sv:value>
-                  </sv:property>
-                  <sv:property sv:name="label" sv:type="String">
-                    <sv:value>Überzeile</sv:value>
-                  </sv:property>
-                </sv:node>
                 <sv:node sv:name="title">
                   <sv:property sv:name="jcr:primaryType" sv:type="Name">
                     <sv:value>mgnl:contentNode</sv:value>
@@ -13404,17 +13343,6 @@
                   </sv:property>
                   <sv:property sv:name="label" sv:type="String">
                     <sv:value>Titel</sv:value>
-                  </sv:property>
-                </sv:node>
-                <sv:node sv:name="subtitle">
-                  <sv:property sv:name="jcr:primaryType" sv:type="Name">
-                    <sv:value>mgnl:contentNode</sv:value>
-                  </sv:property>
-                  <sv:property sv:name="class" sv:type="String">
-                    <sv:value>info.magnolia.ui.form.field.definition.TextFieldDefinition</sv:value>
-                  </sv:property>
-                  <sv:property sv:name="label" sv:type="String">
-                    <sv:value>Untertitel</sv:value>
                   </sv:property>
                 </sv:node>
                 <sv:node sv:name="toc">
@@ -13506,17 +13434,6 @@
                 <sv:property sv:name="jcr:primaryType" sv:type="Name">
                   <sv:value>mgnl:contentNode</sv:value>
                 </sv:property>
-                <sv:node sv:name="eyebrow">
-                  <sv:property sv:name="jcr:primaryType" sv:type="Name">
-                    <sv:value>mgnl:contentNode</sv:value>
-                  </sv:property>
-                  <sv:property sv:name="class" sv:type="String">
-                    <sv:value>info.magnolia.ui.form.field.definition.TextFieldDefinition</sv:value>
-                  </sv:property>
-                  <sv:property sv:name="label" sv:type="String">
-                    <sv:value>Überzeile</sv:value>
-                  </sv:property>
-                </sv:node>
                 <sv:node sv:name="title">
                   <sv:property sv:name="jcr:primaryType" sv:type="Name">
                     <sv:value>mgnl:contentNode</sv:value>
@@ -13526,20 +13443,6 @@
                   </sv:property>
                   <sv:property sv:name="label" sv:type="String">
                     <sv:value>Titel</sv:value>
-                  </sv:property>
-                </sv:node>
-                <sv:node sv:name="subtitle">
-                  <sv:property sv:name="jcr:primaryType" sv:type="Name">
-                    <sv:value>mgnl:contentNode</sv:value>
-                  </sv:property>
-                  <sv:property sv:name="class" sv:type="String">
-                    <sv:value>info.magnolia.ui.form.field.definition.TextFieldDefinition</sv:value>
-                  </sv:property>
-                  <sv:property sv:name="label" sv:type="String">
-                    <sv:value>Untertitel</sv:value>
-                  </sv:property>
-                  <sv:property sv:name="rows" sv:type="String">
-                    <sv:value>3</sv:value>
                   </sv:property>
                 </sv:node>
                 <sv:node sv:name="image">
@@ -14004,17 +13907,6 @@
                 <sv:property sv:name="jcr:primaryType" sv:type="Name">
                   <sv:value>mgnl:contentNode</sv:value>
                 </sv:property>
-                <sv:node sv:name="eyebrow">
-                  <sv:property sv:name="jcr:primaryType" sv:type="Name">
-                    <sv:value>mgnl:contentNode</sv:value>
-                  </sv:property>
-                  <sv:property sv:name="class" sv:type="String">
-                    <sv:value>info.magnolia.ui.form.field.definition.TextFieldDefinition</sv:value>
-                  </sv:property>
-                  <sv:property sv:name="label" sv:type="String">
-                    <sv:value>Überzeile</sv:value>
-                  </sv:property>
-                </sv:node>
                 <sv:node sv:name="title">
                   <sv:property sv:name="jcr:primaryType" sv:type="Name">
                     <sv:value>mgnl:contentNode</sv:value>
@@ -14024,20 +13916,6 @@
                   </sv:property>
                   <sv:property sv:name="label" sv:type="String">
                     <sv:value>Titel</sv:value>
-                  </sv:property>
-                </sv:node>
-                <sv:node sv:name="subtitle">
-                  <sv:property sv:name="jcr:primaryType" sv:type="Name">
-                    <sv:value>mgnl:contentNode</sv:value>
-                  </sv:property>
-                  <sv:property sv:name="class" sv:type="String">
-                    <sv:value>info.magnolia.ui.form.field.definition.TextFieldDefinition</sv:value>
-                  </sv:property>
-                  <sv:property sv:name="label" sv:type="String">
-                    <sv:value>Untertitel</sv:value>
-                  </sv:property>
-                  <sv:property sv:name="rows" sv:type="String">
-                    <sv:value>3</sv:value>
                   </sv:property>
                 </sv:node>
                 <sv:node sv:name="headline">
@@ -14695,17 +14573,6 @@
                 <sv:property sv:name="jcr:primaryType" sv:type="Name">
                   <sv:value>mgnl:contentNode</sv:value>
                 </sv:property>
-                <sv:node sv:name="eyebrow">
-                  <sv:property sv:name="jcr:primaryType" sv:type="Name">
-                    <sv:value>mgnl:contentNode</sv:value>
-                  </sv:property>
-                  <sv:property sv:name="class" sv:type="String">
-                    <sv:value>info.magnolia.ui.form.field.definition.TextFieldDefinition</sv:value>
-                  </sv:property>
-                  <sv:property sv:name="label" sv:type="String">
-                    <sv:value>Überzeile</sv:value>
-                  </sv:property>
-                </sv:node>
                 <sv:node sv:name="title">
                   <sv:property sv:name="jcr:primaryType" sv:type="Name">
                     <sv:value>mgnl:contentNode</sv:value>
@@ -14715,20 +14582,6 @@
                   </sv:property>
                   <sv:property sv:name="label" sv:type="String">
                     <sv:value>Titel</sv:value>
-                  </sv:property>
-                </sv:node>
-                <sv:node sv:name="subtitle">
-                  <sv:property sv:name="jcr:primaryType" sv:type="Name">
-                    <sv:value>mgnl:contentNode</sv:value>
-                  </sv:property>
-                  <sv:property sv:name="class" sv:type="String">
-                    <sv:value>info.magnolia.ui.form.field.definition.TextFieldDefinition</sv:value>
-                  </sv:property>
-                  <sv:property sv:name="label" sv:type="String">
-                    <sv:value>Untertitel</sv:value>
-                  </sv:property>
-                  <sv:property sv:name="rows" sv:type="String">
-                    <sv:value>3</sv:value>
                   </sv:property>
                 </sv:node>
               </sv:node>
