@@ -2488,6 +2488,14 @@
                     <sv:value>max-e:components/content_elements/reboot/split_block</sv:value>
                   </sv:property>
                 </sv:node>
+                <sv:node sv:name="contact_form">
+                  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                    <sv:value>mgnl:contentNode</sv:value>
+                  </sv:property>
+                  <sv:property sv:name="id" sv:type="String">
+                    <sv:value>max-e:components/content_elements/reboot/contact_form</sv:value>
+                  </sv:property>
+                </sv:node>
               </sv:node>
             </sv:node>
           </sv:node>
@@ -3696,6 +3704,23 @@
           </sv:property>
           <sv:property sv:name="title" sv:type="String">
             <sv:value>Split-Block (reboot)</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="contact_form">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:contentNode</sv:value>
+          </sv:property>
+          <sv:property sv:name="description" sv:type="String">
+            <sv:value>Kontaktformular (reboot)</sv:value>
+          </sv:property>
+          <sv:property sv:name="dialog" sv:type="String">
+            <sv:value>max-e:content_elements/reboot/contact_form</sv:value>
+          </sv:property>
+          <sv:property sv:name="renderType" sv:type="String">
+            <sv:value>sinicum</sv:value>
+          </sv:property>
+          <sv:property sv:name="title" sv:type="String">
+            <sv:value>Kontaktformular (reboot)</sv:value>
           </sv:property>
         </sv:node>
         <sv:node sv:name="accordion_item">
