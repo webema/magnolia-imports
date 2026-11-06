@@ -12054,6 +12054,17 @@
                         <sv:value>4</sv:value>
                       </sv:property>
                     </sv:node>
+                    <sv:node sv:name="5">
+                      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                        <sv:value>mgnl:contentNode</sv:value>
+                      </sv:property>
+                      <sv:property sv:name="label" sv:type="String">
+                        <sv:value>5 Elemente pro Zeile</sv:value>
+                      </sv:property>
+                      <sv:property sv:name="value" sv:type="String">
+                        <sv:value>5</sv:value>
+                      </sv:property>
+                    </sv:node>
                   </sv:node>
                 </sv:node>
                 <sv:node sv:name="style">
