@@ -2496,6 +2496,14 @@
                     <sv:value>max-e:components/content_elements/reboot/contact_form</sv:value>
                   </sv:property>
                 </sv:node>
+                <sv:node sv:name="releases">
+                  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                    <sv:value>mgnl:contentNode</sv:value>
+                  </sv:property>
+                  <sv:property sv:name="id" sv:type="String">
+                    <sv:value>max-e:components/content_elements/reboot/releases</sv:value>
+                  </sv:property>
+                </sv:node>
               </sv:node>
             </sv:node>
           </sv:node>
@@ -3866,6 +3874,23 @@
               </sv:node>
             </sv:node>
           </sv:node>
+        </sv:node>
+        <sv:node sv:name="releases">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:contentNode</sv:value>
+          </sv:property>
+          <sv:property sv:name="title" sv:type="String">
+            <sv:value>Meldungen (reboot)</sv:value>
+          </sv:property>
+          <sv:property sv:name="description" sv:type="String">
+            <sv:value>Meldungen (reboot)</sv:value>
+          </sv:property>
+          <sv:property sv:name="dialog" sv:type="String">
+            <sv:value>max-e:content_elements/reboot/releases</sv:value>
+          </sv:property>
+          <sv:property sv:name="renderType" sv:type="String">
+            <sv:value>sinicum</sv:value>
+          </sv:property>
         </sv:node>
       </sv:node>
     </sv:node>
