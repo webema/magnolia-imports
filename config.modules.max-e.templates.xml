@@ -1408,7 +1408,7 @@
           <sv:value>Meldung (reboot)</sv:value>
         </sv:property>
         <sv:property sv:name="visible" sv:type="String">
-          <sv:value>true</sv:value>
+          <sv:value>false</sv:value>
         </sv:property>
         <sv:node sv:name="areas">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
