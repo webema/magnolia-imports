@@ -1388,6 +1388,29 @@
           </sv:node>
         </sv:node>
       </sv:node>
+      <sv:node sv:name="redirect">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:contentNode</sv:value>
+        </sv:property>
+        <sv:property sv:name="description" sv:type="String">
+          <sv:value>Weiterleitung (reboot)</sv:value>
+        </sv:property>
+        <sv:property sv:name="dialog" sv:type="String">
+          <sv:value>max-e:reboot/redirect_properties</sv:value>
+        </sv:property>
+        <sv:property sv:name="name" sv:type="String">
+          <sv:value>redirect</sv:value>
+        </sv:property>
+        <sv:property sv:name="renderType" sv:type="String">
+          <sv:value>sinicum</sv:value>
+        </sv:property>
+        <sv:property sv:name="title" sv:type="String">
+          <sv:value>Weiterleitung (reboot)</sv:value>
+        </sv:property>
+        <sv:property sv:name="visible" sv:type="String">
+          <sv:value>false</sv:value>
+        </sv:property>
+      </sv:node>
       <sv:node sv:name="release">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>mgnl:contentNode</sv:value>
